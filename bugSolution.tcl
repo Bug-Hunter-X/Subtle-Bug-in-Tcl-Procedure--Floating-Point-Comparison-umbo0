@@ -1,0 +1,1 @@
+proc goodproc {a b tolerance} {if {[expr {abs($a - $b)}] < $tolerance} {return 1} {return 0}} #Use a tolerance for floating point comparison
