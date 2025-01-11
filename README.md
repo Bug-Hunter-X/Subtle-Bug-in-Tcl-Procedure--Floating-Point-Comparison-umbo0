@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in a Tcl procedure that involves floating-point number comparison. The `badproc` procedure incorrectly handles cases where the input numbers are floating-point and are not exactly equal due to representation errors.  The solution shows how to use a tolerance-based comparison to address this issue.
